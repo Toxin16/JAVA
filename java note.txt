@@ -29,3 +29,8 @@ reference data type : 힙(heap), 주소
 헝가리안 표기법 : 변수명 앞에 변수의 자료형을 알 수 있는 문자를 사용하는 것.
 카멜 표기법 : 앞 단어의 첫 글자는 소문자 뒤 단어의 첫 글자는 대문자.
 파스칼 표기법 : 모든 단어의 첫 글자는 대문자 나머지는 소문자.
+
+조건문
+선택문 : if, if ~ else, else if
+반복문 : for, for each, while, do - while
+흐름 제어 : break //block 탈출, continue //아래명령 무시, return //호출한 곳으로 돌아가기
