@@ -34,3 +34,5 @@ reference data type : 힙(heap), 주소
 선택문 : if, if ~ else, else if
 반복문 : for, for each, while, do - while
 흐름 제어 : break //block 탈출, continue //아래명령 무시, return //호출한 곳으로 돌아가기
+
+ctrl + shift + o : 자동 import ex)import java.util.Scanner;
