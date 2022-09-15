@@ -36,3 +36,6 @@ reference data type : 힙(heap), 주소
 흐름 제어 : break //block 탈출, continue //아래명령 무시, return //호출한 곳으로 돌아가기
 
 ctrl + shift + o : 자동 import ex)import java.util.Scanner;
+
+220915
+eclipse에서 줄번호 우클릭 : breakpoint - f11버튼은 debug, f6버튼 줄별로 실행
