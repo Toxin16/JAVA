@@ -39,3 +39,6 @@ ctrl + shift + o : 자동 import ex)import java.util.Scanner;
 
 220915
 eclipse에서 줄번호 우클릭 : breakpoint - f11버튼은 debug, f6버튼 줄별로 실행
+
+220919
+반복하는 횟수가 정해져 있지 않을때 while문, 반복하는 횟수가 정해져 있으면 for문 사용
