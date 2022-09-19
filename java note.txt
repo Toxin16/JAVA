@@ -42,3 +42,4 @@ eclipse에서 줄번호 우클릭 : breakpoint - f11버튼은 debug, f6버튼 �
 
 220919
 반복하는 횟수가 정해져 있지 않을때 while문, 반복하는 횟수가 정해져 있으면 for문 사용
+eclipse에서 arguments 지정 : Run - Run Configurations - Arguments. 각 인자는 띄어쓰기로 구분
