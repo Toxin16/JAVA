@@ -13,11 +13,11 @@ public class InputException {
 			n = sc.nextInt();
 		} catch (Exception e) {
 			System.out.println("정수가 아닙니다. 다시 입력하세요.");
-			sc.nextLine();
-			i--;
+			sc.nextLine();	//현재 입력 스트림에 남아있는 토큰을 지운다.
+			i--;	//인덱스가 증가하지 않도록 미리 감소
 			continue;
 		}
-			sum += n;
+			sum += n;	
 		}
 		System.out.println("합은 " + sum);
 		sc.close();
