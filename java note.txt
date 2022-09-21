@@ -52,4 +52,5 @@ enum : 열거형 자료형, 원소에 ""를 붙이지 않음. main보다 위에 
 정방형 배열, 비정방형 배열
 전역변수, 지역변수, 매개변수
 
-rename(치환)= 더블클릭 - 우측버튼 - refactor - rename
+220921
+eclipse에서 rename(치환)= 더블클릭 - 우측버튼 - refactor - rename
