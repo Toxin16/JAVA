@@ -61,5 +61,6 @@ class명 객체명 = new 생성자명();
 this. //클래스 내의 자신을 가리킴. 
 ex) 생성자
 public CircleConst(int radius) {
-  this.radius = radius; } 
-에서 좌변 radius는 클래스 내에 선언된 변수, 우변 radius는 객체셍성시 받아온 인자를 가리킨다.
+  this.radius = radius; }
+ CircleConst pizza1 = new CircleConst(5);
+에서 좌변 radius는 클래스 내에 선언된 변수, 우변 radius는 객체 생성시 받아온 인자를 가리킨다.
