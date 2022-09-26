@@ -65,7 +65,7 @@ public CircleConst(int radius) {
  CircleConst pizza1 = new CircleConst(5);
 에서 좌변 radius는 클래스 내에 선언된 변수, 우변 radius는 객체 생성시 받아온 인자를 가리킨다.
 
-*220926*
+#220926
 getter setter : source-generate constructor using fields, source-generate Getters and setter
 this. : 클래스 내 자신 / this() : 클래스 내 다른 생성자 호출, 반드시 생성자 코드 첫줄에
 메소드 오버로딩 : 매개변수 개수에 따라서 호출되는 생성자가 다름. (한개의 이름으로 여러 성질)
