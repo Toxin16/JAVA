@@ -74,4 +74,4 @@ java api 8
 p202, 204 이해하기
 set메소드는 private로 선언된 필드의 값을 수정할때 필요. private에 직접 접근 불가능하므로 객체는 입력값을 setter메소드의 매개값으로 넘겨주고 값을 검사하고 나서 그 값이 필드의 값으로 적절한 경우에만 저장.
 Getter : 데이터를 읽어오는 역할을 주로 수행. 
-https://m.blog.naver.com/leejjoo112/222007699174
+(https://m.blog.naver.com/leejjoo112/222007699174)
