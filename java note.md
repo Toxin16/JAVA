@@ -69,3 +69,6 @@ public CircleConst(int radius) {
 getter setter : source-generate constructor using fields, source-generate Getters and setter
 this. : 클래스 내 자신 / this() : 클래스 내 다른 생성자 호출, 반드시 생성자 코드 첫줄에
 메소드 오버로딩 : 매개변수 개수에 따라서 호출되는 생성자가 다름. (한개의 이름으로 여러 성질)
+super() : 부모 클래스의 변수 참조, 부모 생성자 호출
+java api 8
+p202
