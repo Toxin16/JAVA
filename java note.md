@@ -82,3 +82,10 @@ Getter : 데이터를 읽어오는 역할을 주로 수행.
 
 220928
 변수는 stack에 만들어짐, 객체(참조변수)는 heap에 만들어짐, heap의 주소는 stack에 가지고 있음.
+Circle pizza = new Circle(5);에서 pizza는 객체가 생성된 heap의 주소를 담은 변수.
+Circle donut;에서 donut는 Circle로 만든 객체의 주소를 담는 변수.
+파라미터=매개변수=인자
+prototype : int foo(int a, int b)와 같은 함수 원형을 의미한다.
+signature : foo(int a, int b)와 같이 리턴값을 제외한 함수명과 파라메터를 의미한다.
+parameter : foo(int a, int b)int a, b 를 의미한다.
+메소드 오버로딩시 시그니처가 달라야 한다.
