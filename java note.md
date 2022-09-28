@@ -88,4 +88,6 @@ Circle donut;에서 donut는 Circle로 만든 객체의 주소를 담는 변수.
 prototype : int foo(int a, int b)와 같은 함수 원형을 의미한다.
 signature : foo(int a, int b)와 같이 리턴값을 제외한 함수명과 파라메터를 의미한다.
 parameter : foo(int a, int b)int a, b 를 의미한다.
-메소드 오버로딩시 시그니처가 달라야 한다.
+method overloading은 signature의 paramater 개수, 타입, 순서가 다르면 같은 이름의 메소드를 생성할 수 있는 것을 의미한다.
+모든 필드는 private로 선언하고 다른 곳에서 접근하게 하려면 getter, setter 선언
+java파일에서 하나의 메인 클래스에서만 public을 지정할수 있음.
