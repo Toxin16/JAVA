@@ -91,3 +91,7 @@ parameter : foo(int a, int b)int a, b 를 의미한다.
 method overloading은 signature의 paramater 개수, 타입, 순서가 다르면 같은 이름의 메소드를 생성할 수 있는 것을 의미한다.
 모든 필드는 private로 선언하고 다른 곳에서 접근하게 하려면 getter, setter 선언
 java파일에서 하나의 메인 클래스에서만 public을 지정할수 있음.
+
+0929
+객체생성시 객체는 heap에 저장, 객체를 가리키는 주소는 stack에 저장.
+static로 변수 선언시 모든 객체가 공유함(다른 객체더라도 모두 같은 변수를 가리킴)
