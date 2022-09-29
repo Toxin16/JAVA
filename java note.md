@@ -80,7 +80,7 @@ Getter : 데이터를 읽어오는 역할을 주로 수행.
 메소드 오버로딩 : 매개변수의 개수와 타입이 다르면 한 이름으로 여러개 메소드를 선언 가능.
 접근 지정자가 생략되어 있으면 default(같은 패키지만), protected : 같은 패키지 + 자식 클래스 접근허용
 
-220928
+### 220928 (heap, stack, 오버로딩)
 변수는 stack에 만들어짐, 객체(참조변수)는 heap에 만들어짐, heap의 주소는 stack에 가지고 있음.
 Circle pizza = new Circle(5);에서 pizza는 객체가 생성된 heap의 주소를 담은 변수.
 Circle donut;에서 donut는 Circle로 만든 객체의 주소를 담는 변수.
@@ -92,6 +92,6 @@ method overloading은 signature의 paramater 개수, 타입, 순서가 다르면
 모든 필드는 private로 선언하고 다른 곳에서 접근하게 하려면 getter, setter 선언
 java파일에서 하나의 메인 클래스에서만 public을 지정할수 있음.
 
-0929
+### 0929 (static)
 객체생성시 객체는 heap에 저장, 객체를 가리키는 주소는 stack에 저장.
 static로 변수 선언시 모든 객체가 공유함(다른 객체더라도 모두 같은 변수를 가리킴)
