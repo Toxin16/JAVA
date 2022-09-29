@@ -97,3 +97,5 @@ java파일에서 하나의 메인 클래스에서만 public을 지정할수 있�
 static으로 변수 n 선언시 모든 객체가 n을 공유함(다른 객체더라도 모두 같은 변수 n을 가리킴)
 sc1.n = 1;처럼 객체이름으로 n(필드)의 값을 지정할 수 있으나 클래스명.n = 1; 처럼 클래스명으로 static 필드의 값을 지정.
 객체를 만들지 않아도 static로 메소드를 선언하면 클래스이름.메소드로 바로 사용가능.
+
+oracle -Developers - Developer Resource Center - java - Learn more about Java SE - Documentation - Java Platform Standard Edition Technical Documentation site - 찾고싶은것 검색
