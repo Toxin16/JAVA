@@ -99,4 +99,4 @@ sc1.n = 1;처럼 객체이름으로 n(필드)의 값을 지정할 수 있으나 
 객체를 만들지 않아도 static로 메소드를 선언하면 클래스이름.메소드로 바로 사용가능.
 
 oracle -Developers - Developer Resource Center - java - Learn more about Java SE - Documentation - Java Platform Standard Edition Technical Documentation site - 찾고싶은것 검색.
-.abs : 절대값으로 나타냄
+.abs : 절대값으로 나타냄  //Java document 사이트에서 Math 클래스 참조
