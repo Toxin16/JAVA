@@ -101,3 +101,6 @@ sc1.n = 1;처럼 객체이름으로 n(필드)의 값을 지정할 수 있으나 
 oracle -Developers - Developer Resource Center - java - Learn more about Java SE - Documentation - Java Platform Standard Edition Technical Documentation site - 찾고싶은것 검색.
 .abs : 절대값으로 나타냄  //Java document 사이트에서 Math 클래스 참조
 Math.PI에서 Math는 이미 자바 내 정의되어있는 디폴트 클래스
+
+221004
+함수 사용할때 객체명.함수명();  ex)song.show();
