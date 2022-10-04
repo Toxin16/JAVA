@@ -103,4 +103,4 @@ oracle -Developers - Developer Resource Center - java - Learn more about Java SE
 Math.PI에서 Math는 이미 자바 내 정의되어있는 디폴트 클래스
 
 221004
-함수 사용할때 객체명.함수명();  ex)song.show();
+함수 사용할때 : 객체명.함수명();  ex)song.show();
