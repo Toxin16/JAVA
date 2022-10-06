@@ -133,4 +133,4 @@ Student s = (Student)p; //왼쪽이 자식일 경우에는 형변환. //다운�
 -abc(), abc(int a), abc(double d), abc(int a, double d), abc(doubld d, int a)
 
 오버라이딩
--슈퍼클래스의 메소드를 서브클래스에서 재정의
+-슈퍼클래스의 메소드를 서브클래스에서 재정의. 무시하기, 덮어쓰기로 번역하기도 함.
