@@ -116,3 +116,10 @@ Math.PI에서 Math는 이미 자바 내 정의되어있는 디폴트 클래스
 super(매개변수); 적으면 부모클래스의 생성자 중에 디폴트생성자가 아닌 매개변수를 받는 생성자 호출. 생성자 호출과 원리 같음
 //toString는 Object에서 상속받기 때문에 모든 객체에서 사용가능
 아무 일 안하더라도 default(비어있는) 생성자 만들어두기
+
+221006 instanceof
+instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student의 객체이면
+형 변환시
+int num = 10;
+double data = num;은 가능하지만 num에 double을 넣는건 안됨, 캐스팅 필요
+상속에서 왼쪽이 부모, 오른쪽이 자식 // 부모 = 자식; 가능
