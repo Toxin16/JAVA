@@ -117,7 +117,7 @@ super(매개변수); 적으면 부모클래스의 생성자 중에 디폴트생�
 //toString는 Object에서 상속받기 때문에 모든 객체에서 사용가능
 아무 일 안하더라도 default(비어있는) 생성자 만들어두기
 
-221006 instanceof
+221006 (instanceof, 업/다운캐스팅)
 instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student의 객체이면
 형 변환시
 int num = 10;
