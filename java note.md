@@ -125,3 +125,9 @@ int num = 10;에서 형 변환시 double data = num;은 가능하지만 num에 d
 왼쪽이 자식, 오른쪽이 부모이면 형변환 필요. 
 Person p = new Student("이재문")
 Student s = (Student)p; //왼쪽이 자식일 경우에는 형변환. //다운캐스팅(부모가 자식한테)
+
+메소드 오버로딩(loading) vs 오버라이딩(riding)
+오버로딩
+-메소드 시그니쳐가 다른 같은 메소드 이름을 여러 개 정의할 수 있음.(타입, 개수, 순서)
+-여러 개의 생성자를 만들 수 있음. 같은 이름의 메소드를 여러 개 만들 수 있음.
+-abc(), abc(int a), abc(double d), abc(int a, double d), abc(doubld d, int a)
