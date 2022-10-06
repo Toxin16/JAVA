@@ -117,7 +117,7 @@ super(매개변수); 적으면 부모클래스의 생성자 중에 디폴트생�
 //toString는 Object에서 상속받기 때문에 모든 객체에서 사용가능
 아무 일 안하더라도 default(비어있는) 생성자 만들어두기
 
-221006 (instanceof, 업/다운캐스팅)
+### 221006 (instanceof, 업/다운캐스팅)
 instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student의 객체이면 true이므로 if아래문장 실행
 
 int num = 10;에서 형 변환시 double data = num;은 가능하지만 num에 double을 넣는건 안됨, 캐스팅 필요
@@ -131,6 +131,7 @@ Student s = (Student)p; //왼쪽이 자식일 경우에는 형변환. //다운�
 -메소드 시그니쳐가 다른 같은 메소드 이름을 여러 개 정의할 수 있음.(타입, 개수, 순서)
 -여러 개의 생성자를 만들 수 있음. 같은 이름의 메소드를 여러 개 만들 수 있음.
 -abc(), abc(int a), abc(double d), abc(int a, double d), abc(doubld d, int a)
-
 오버라이딩
 -슈퍼클래스의 메소드를 서브클래스에서 재정의. 무시하기, 덮어쓰기로 번역하기도 함.
+
+super.메소드명(); - 부모 메소드 실행
