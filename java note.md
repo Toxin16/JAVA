@@ -118,11 +118,10 @@ super(매개변수); 적으면 부모클래스의 생성자 중에 디폴트생�
 아무 일 안하더라도 default(비어있는) 생성자 만들어두기
 
 221006 (instanceof, 업/다운캐스팅)
-instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student의 객체이면
-형 변환시
-int num = 10;
-double data = num;은 가능하지만 num에 double을 넣는건 안됨, 캐스팅 필요
-상속에서 왼쪽이 부모, 오른쪽이 자식 // 부모 = 자식;은 가능    //업캐스팅
+instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student의 객체이면 true이므로 if아래문장 실행
+
+int num = 10;에서 형 변환시 double data = num;은 가능하지만 num에 double을 넣는건 안됨, 캐스팅 필요
+상속에서 왼쪽이 부모, 오른쪽이 자식 // 부모 = 자식;은 가능    //업캐스팅(자식이 부모한테)
 왼쪽이 자식, 오른쪽이 부모이면 형변환 필요. 
 Person p = new Student("이재문")
-Student s = (Student)p; //왼쪽이 자식일 경우에 형변환. //다운캐스팅
+Student s = (Student)p; //왼쪽이 자식일 경우에는 형변환. //다운캐스팅(부모가 자식한테)
