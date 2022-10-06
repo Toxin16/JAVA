@@ -122,4 +122,7 @@ instanceof : 객체의 타입 식별. if(p instanceof Student) // p가 student�
 형 변환시
 int num = 10;
 double data = num;은 가능하지만 num에 double을 넣는건 안됨, 캐스팅 필요
-상속에서 왼쪽이 부모, 오른쪽이 자식 // 부모 = 자식; 가능
+상속에서 왼쪽이 부모, 오른쪽이 자식 // 부모 = 자식;은 가능    //업캐스팅
+왼쪽이 자식, 오른쪽이 부모이면 형변환 필요. 
+Person p = new Student("이재문")
+Student s = (Student)p; //왼쪽이 자식일 경우에 형변환. //다운캐스팅
