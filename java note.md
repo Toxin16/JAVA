@@ -156,7 +156,7 @@ ex) interface PhoneInterface {
 public abstract void sendCall(); public abstract void receiveCall();
 public default void printLogo();
 이면
-class Samsungphone implements PhoneInterface {  //인터페이스 구현
+class Samsungphone implements PhoneInterface {  //인터페이스 구현(Samsungphone에서 PhoneInterface를 구현)
 public void sendcall() {syso ("띠리리링")}; //추상메소드 구현
 public void receiveCall() {syso("전화왔음")}; }
 
