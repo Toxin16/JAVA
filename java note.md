@@ -180,3 +180,13 @@ Integer.toString(20)+123; => 20123
 
 리터럴로 스트링 생성하면 응용프로그램 내에서 공유됨(a와b가 Hello를 공유). String로 객체생성하면 힙메모리에 독립적으로 생성.
 스트링버퍼 : 저장된 문자열의 수정이 가능
+
+221025 자바GUI (swing)
+main에서 MyWindow my = new MyWindow();	//new MyWindow()로도 사용가능
+Swing=경량프로그램
+컨테이너마다 하나의 배치관리자가 존재하며 모든 컴포너트의 위치와 크기를 결정하고 적절히 배치 contentPane.setLayout(new FlowLayout());
+contentPane.setLayout(new FlowLayout(FlowLayout.RIGHT,10,20));	//배치관리자, 우측정렬
+c.setLayout(null) //배치관리자 무력화
+
+Container c = getContentPane();	//투명한 유리판
+패널은 유리판의 구역을 나눔. 패널마다 다른 배치관리자 사용가능.
