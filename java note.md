@@ -190,3 +190,9 @@ c.setLayout(null) //배치관리자 무력화
 
 Container c = getContentPane();	//투명한 유리판
 패널은 유리판의 구역을 나눔. 패널마다 다른 배치관리자 사용가능.
+
+모달 다이얼로그
+main이 되는 class만 public로 지정함
+생성자 밑에 main
+BorderLayout : 동서남북중앙 5개, 패널
+클래스는 생성자를 가짐
