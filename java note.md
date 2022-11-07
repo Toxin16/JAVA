@@ -196,3 +196,5 @@ main이 되는 class만 public로 지정함
 생성자 밑에 main
 BorderLayout : 동서남북중앙 5개, 패널
 클래스는 생성자를 가짐
+
+221107 오디오
